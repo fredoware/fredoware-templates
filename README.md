@@ -1,0 +1,1 @@
+# fredoware-templates
