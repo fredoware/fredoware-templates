@@ -6,6 +6,11 @@
 * License: https://bootstrapmade.com/license/
 */
 
+:root {
+  --primary: #ff4a17;
+}
+
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -15,7 +20,7 @@ body {
 }
 
 a {
-  color: #ff4a17;
+  color: var(--primary);
   text-decoration: none;
 }
 
@@ -43,7 +48,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ff4a17;
+  background: var(--primary);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -85,7 +90,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #ff4a17;
+  border: 6px solid var(--primary);
   border-top-color: #ffe9e3;
   border-radius: 50%;
   width: 60px;
@@ -148,7 +153,7 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -200,7 +205,7 @@ h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #ff4a17;
+  background-color: var(--primary);
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -233,7 +238,7 @@ h6 {
 .navbar .getstarted:focus:hover {
   color: #fff;
   background: #fd3800;
-  border-color: #ff4a17;
+  border-color: var(--primary);
 }
 
 .navbar>ul>li>.getstarted:before {
@@ -275,7 +280,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #ff4a17;
+  color: var(--primary);
 }
 
 .navbar .dropdown:hover>ul {
@@ -308,7 +313,7 @@ h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -371,7 +376,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #ff4a17;
+  color: var(--primary);
 }
 
 .navbar-mobile .getstarted,
@@ -406,7 +411,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #ff4a17;
+  color: var(--primary);
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -473,8 +478,8 @@ h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #ff4a17;
-  border: 2px solid #ff4a17;
+  background: var(--primary);
+  border: 2px solid var(--primary);
 }
 
 #hero .btn-get-started:hover {
@@ -502,7 +507,7 @@ h6 {
 }
 
 #hero .btn-watch-video:hover i {
-  color: #ff4a17;
+  color: var(--primary);
 }
 
 @media (min-width: 1024px) {
@@ -647,7 +652,7 @@ section {
 
 .about .content ul i {
   font-size: 24px;
-  color: #ff4a17;
+  color: var(--primary);
   position: absolute;
   left: 0;
   top: -2px;
@@ -660,7 +665,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#ff4a17 50%, rgba(255, 74, 23, 0.4) 52%);
+  background: radial-gradient(var(--primary) 50%, rgba(255, 74, 23, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -703,7 +708,7 @@ section {
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #ff4a17;
+  border-left: 15px solid var(--primary);
   transform: scale(20);
 }
 
@@ -782,7 +787,7 @@ section {
   height: 64px;
   padding-top: 5px;
   text-align: center;
-  background-color: #ff4a17;
+  background-color: var(--primary);
   border-radius: 4px;
   text-align: center;
   border: 4px solid #fff;
@@ -804,7 +809,7 @@ section {
 }
 
 .about-boxes .card-title a:hover {
-  color: #ff4a17;
+  color: var(--primary);
 }
 
 .about-boxes .card-text {
@@ -813,7 +818,7 @@ section {
 
 .about-boxes .card:hover .card-icon i {
   background: #fff;
-  color: #ff4a17;
+  color: var(--primary);
 }
 
 @media (max-width: 1024px) {
@@ -880,13 +885,13 @@ section {
 }
 
 .features .nav-link:hover {
-  color: #ff4a17;
+  color: var(--primary);
 }
 
 .features .nav-link.active {
-  background: #ff4a17;
+  background: var(--primary);
   color: #fff;
-  border-color: #ff4a17;
+  border-color: var(--primary);
 }
 
 @media (max-width: 768px) {
@@ -928,7 +933,7 @@ section {
 .features .tab-pane ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #ff4a17;
+  color: var(--primary);
 }
 
 .features .tab-pane p:last-child {
@@ -965,7 +970,7 @@ section {
 }
 
 .services .icon-box .icon-box:hover h4 a {
-  color: #ff4a17;
+  color: var(--primary);
 }
 
 .services .icon-box p {
@@ -975,7 +980,7 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: #ff4a17;
+  color: var(--primary);
 }
 
 /*--------------------------------------------------------------
@@ -1077,7 +1082,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ff4a17;
+  background-color: var(--primary);
   opacity: 1;
 }
 
@@ -1109,7 +1114,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #ff4a17;
+  background: var(--primary);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1135,7 +1140,7 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #ff4a17;
+  background: var(--primary);
   padding: 15px 20px;
 }
 
@@ -1200,11 +1205,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #ff4a17;
+  border: 1px solid var(--primary);
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ff4a17;
+  background-color: var(--primary);
 }
 
 .portfolio-details .portfolio-info {
@@ -1316,7 +1321,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #ff4a17;
+  color: var(--primary);
 }
 
 .team .member .social i {
@@ -1342,7 +1347,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #ff4a17;
+  color: var(--primary);
   border-radius: 50%;
   padding: 8px;
 }
@@ -1417,7 +1422,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #ff4a17;
+  border-color: var(--primary);
 }
 
 .contact .php-email-form input {
@@ -1429,7 +1434,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #ff4a17;
+  background: var(--primary);
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1555,7 +1560,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #ff4a17;
+  background: var(--primary);
   color: #fff;
   text-decoration: none;
 }
@@ -1603,7 +1608,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #ff4a17;
+  color: var(--primary);
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1629,7 +1634,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #ff4a17;
+  background: var(--primary);
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
